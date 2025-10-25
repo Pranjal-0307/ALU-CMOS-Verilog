@@ -5,9 +5,9 @@
 This project implements an **8-bit Arithmetic Logic Unit (ALU)** designed using **CMOS gate-level logic** and **Verilog HDL**.  
 It features a **4-stage pipelined architecture** with **dual-phase clocking** for safe and efficient operation, providing a practical learning framework for digital design, VLSI, and logic synthesis.
 
----
 
 ## 📂 Folder Structure
+---
 8-Bit Pipelined ALU with CMOS implementation
 │
 ├── 📁 Document
@@ -102,10 +102,12 @@ gtkwave ALU.vcd
 ### 🔁 The design is fully modular, allowing easy addition of new operations or wider datapaths.
 
 ## 🧩 Future Enhancements
- 1.Add MUL and DIV operations using iterative or combinational blocks.
- 2.Integrate forwarding and hazard detection logic for full pipeline control.
- 3.Extend design for synthesis and layout testing on FPGA or CMOS simulator.
+
+- Add **MUL** and **DIV** operations using iterative or combinational blocks.  
+- Integrate **forwarding** and **hazard detection** logic for full pipeline control.  
+- Extend design for **synthesis and layout testing** on FPGA or CMOS simulator.
 
 ### 🚀 Designed for learning, optimized for performance.
+
 
 
