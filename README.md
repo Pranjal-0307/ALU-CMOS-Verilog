@@ -7,7 +7,7 @@ It features a **4-stage pipelined architecture** with **dual-phase clocking** fo
 
 
 ## 📂 Folder Structure
----
+```
 8-Bit Pipelined ALU with CMOS implementation
 │
 ├── 📁 Document
@@ -27,7 +27,7 @@ It features a **4-stage pipelined architecture** with **dual-phase clocking** fo
 ├── .gitignore # Git ignore rules
 └── README.md # Project documentation
 
----
+```
 
 ## 🔧 Key Features
 
@@ -55,7 +55,7 @@ The pipelined ALU operates in **four sequential stages**, maximizing throughput 
 | 3️⃣ Register Write Stage | Store result in destination register             |
 | 4️⃣ Memory Write Stage   | Write result to memory if enabled                |
 
-##🧩 The schematic representation of this pipeline is shown below:  
+## 🧩 The schematic representation of this pipeline is shown below:  
 📄 `Document/Pipeline_Diagram.png`
 
 ---
@@ -97,9 +97,9 @@ gtkwave ALU.vcd
 ```
 ## 📝 Notes
 
-### ⚡ The dual-phase clock system ensures that no race or hold-time violations occur between stages.
-### 🧠 The CMOS primitive-based structure gives transistor-level insight into real hardware logic.
-### 🔁 The design is fully modular, allowing easy addition of new operations or wider datapaths.
+- ⚡ The dual-phase clock system ensures that no race or hold-time violations occur between stages.
+- 🧠 The CMOS primitive-based structure gives transistor-level insight into real hardware logic.
+- 🔁 The design is fully modular, allowing easy addition of new operations or wider datapaths.
 
 ## 🧩 Future Enhancements
 
@@ -108,6 +108,7 @@ gtkwave ALU.vcd
 - Extend design for **synthesis and layout testing** on FPGA or CMOS simulator.
 
 ### 🚀 Designed for learning, optimized for performance.
+
 
 
 
