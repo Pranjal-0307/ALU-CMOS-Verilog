@@ -97,13 +97,14 @@ gtkwave ALU.vcd
 ```
 ## 📝 Notes
 
-⚡ The dual-phase clock system ensures that no race or hold-time violations occur between stages.
-🧠 The CMOS primitive-based structure gives transistor-level insight into real hardware logic.
-🔁 The design is fully modular, allowing easy addition of new operations or wider datapaths.
+### ⚡ The dual-phase clock system ensures that no race or hold-time violations occur between stages.
+### 🧠 The CMOS primitive-based structure gives transistor-level insight into real hardware logic.
+### 🔁 The design is fully modular, allowing easy addition of new operations or wider datapaths.
 
 ## 🧩 Future Enhancements
-1.Add MUL and DIV operations using iterative or combinational blocks.
-2.Integrate forwarding and hazard detection logic for full pipeline control.
-3.Extend design for synthesis and layout testing on FPGA or CMOS simulator.
+### 1.Add MUL and DIV operations using iterative or combinational blocks.
+### 2.Integrate forwarding and hazard detection logic for full pipeline control.
+### 3.Extend design for synthesis and layout testing on FPGA or CMOS simulator.
 
 ### 🚀 Designed for learning, optimized for performance.
+
