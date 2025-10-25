@@ -102,9 +102,10 @@ gtkwave ALU.vcd
 ### 🔁 The design is fully modular, allowing easy addition of new operations or wider datapaths.
 
 ## 🧩 Future Enhancements
-### 1.Add MUL and DIV operations using iterative or combinational blocks.
-### 2.Integrate forwarding and hazard detection logic for full pipeline control.
-### 3.Extend design for synthesis and layout testing on FPGA or CMOS simulator.
+ 1.Add MUL and DIV operations using iterative or combinational blocks.
+ 2.Integrate forwarding and hazard detection logic for full pipeline control.
+ 3.Extend design for synthesis and layout testing on FPGA or CMOS simulator.
 
 ### 🚀 Designed for learning, optimized for performance.
+
 
