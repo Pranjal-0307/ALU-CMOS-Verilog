@@ -12,7 +12,6 @@ It features a **4-stage pipelined architecture** with **dual-phase clocking** fo
 │
 ├── 📁 Document
 │ ├── Waveform.png # Simulation waveform output
-│ └── Pipeline_Diagram.png # Schematic/diagram of pipelined architecture
 │
 ├── 📁 Primitives
 │ └── gate_library.v # Contains 1-bit CMOS logic modules (adder, subtractor, NAND, NOR, XOR, NOT, etc.)
@@ -54,9 +53,6 @@ The pipelined ALU operates in **four sequential stages**, maximizing throughput 
 | 2️⃣ Execute Stage        | Perform selected ALU operation using CMOS gates  |
 | 3️⃣ Register Write Stage | Store result in destination register             |
 | 4️⃣ Memory Write Stage   | Write result to memory if enabled                |
-
-## 🧩 The schematic representation of this pipeline is shown below:  
-📄 `Document/Pipeline_Diagram.png`
 
 ---
 
@@ -108,6 +104,7 @@ gtkwave ALU.vcd
 - Extend design for **synthesis and layout testing** on FPGA or CMOS simulator.
 
 ### 🚀 Designed for learning, optimized for performance.
+
 
 
 
